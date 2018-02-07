@@ -292,7 +292,9 @@ class ProductControllerCore extends FrontController
                 ),
                 'display_discount_price' => Configuration::get('PS_DISPLAY_DISCOUNT_PRICE'),
             ));
+            $this->context->smarty->assign('HOOK_PRODUCT_JUAN', Module::hookExec('displayProductJuan'));
         }
+
         $this->setTemplate(_PS_THEME_DIR_.'product.tpl');
     }
 
