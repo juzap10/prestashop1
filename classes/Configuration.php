@@ -376,7 +376,7 @@ class ConfigurationCore extends ObjectModel
      * @param int $id_shop
      * @return bool Update result
      */
-    public static function updateValue($key, $values, $html = false, $id_shop_group = null, $id_shop = null)
+    public static function updateValue($key, $values, $html = true, $id_shop_group = null, $id_shop = null)
     {
         if (!Validate::isConfigName($key)) {
             die(sprintf(Tools::displayError('[%s] is not a valid configuration key'), Tools::htmlentitiesUTF8($key)));
