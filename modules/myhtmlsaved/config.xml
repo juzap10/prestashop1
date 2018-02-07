@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>myhtmlsaved</name>
+	<displayName><![CDATA[myhtmlsaved]]></displayName>
+	<version><![CDATA[0.0.1]]></version>
+	<description><![CDATA[Este es un modulo de prubas myhtmlsaved]]></description>
+	<author><![CDATA[Juan David Zapata Yepes ]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

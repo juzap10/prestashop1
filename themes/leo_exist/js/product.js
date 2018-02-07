@@ -188,7 +188,7 @@ $(document).ready(function(){
 
 	$(document).on('change', '.attribute_select', function(e){
 		e.preventDefault();
-		findCombination();
+		findCombination($(this));
 		getProductAttribute();
 	});
 
